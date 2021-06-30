@@ -1,7 +1,7 @@
 import vk_api
 import time
 """
-(Вечный онлайн)
+(Вечный Онлайн)
 Получение токена: https://vkhost.github.io/
 pip install vk_api
 """
