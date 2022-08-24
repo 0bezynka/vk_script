@@ -10,4 +10,6 @@
 Отталкиваясь от этого исходника, можно сделать множество вариаций "статуса", все ограничивается фантазией.
 + auto_status.py
 
+---
+
 > Мои контакты [Instagram](https://www.instagram.com/just.gray) / [Telegram](https://t.me/justgrayy)
