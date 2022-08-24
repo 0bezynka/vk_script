@@ -1,6 +1,6 @@
 import vk_api
 """
-ДОБАВЛЕНИЕ НОВЫХ ДРУЗЕЙ
+ДОБАВЛЕНИЕ НОВЫХ ДРУЗЕЙ 
 """
 
 vk=vk_api.VkApi(token="TOKEN") # VK token
