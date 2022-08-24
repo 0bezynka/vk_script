@@ -1,7 +1,7 @@
 from random import choice
 import vk_api, time
 """
-Авто-статус
+Авто-статус 
 """
 
 vk=vk_api.VkApi(token="TOKEN") # VK token
