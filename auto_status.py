@@ -13,4 +13,4 @@ while True:
     SS = vk.method("status.set",{"text":r_text}) # УСТАНОВКА СТАТУСА
     print("Статус обновлён!")
 
-    time.sleep(270) # СОН 5 МИНУТ
+    time.sleep(300) # СОН 5 МИНУТ
