@@ -1,6 +1,6 @@
 import vk_api, time
 """
-(Вечный Онлайн)
+(Вечный Онлайн) 
 """
 vk=vk_api.VkApi(token="ТОКЕН")
 
