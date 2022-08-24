@@ -1,5 +1,4 @@
-import vk_api
-import time
+import vk_api, time
 """
 (Вечный Онлайн)
 """
