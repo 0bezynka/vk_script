@@ -17,4 +17,4 @@
 + clear_requests.py
 ---
 
-> Мои контакты [Instagram](https://www.instagram.com/just.gray) / [Telegram](https://t.me/justgrayy)
+> Надеюсь вам пригодится
