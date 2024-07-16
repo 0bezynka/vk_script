@@ -1,4 +1,4 @@
-import vk_api
+import vk_api, time
 """
 ДОБАВЛЕНИЕ НОВЫХ ДРУЗЕЙ 
 """
