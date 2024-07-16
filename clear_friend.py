@@ -25,6 +25,6 @@ for list_id in spisok_id:# каждый айди проверяем из спи�
         # Этот метод УДАЛЯЕТ его
         delete = vk.method("friends.delete",{"user_id":check_users[0]['id']})
         d_chet += 1 # счётчик удалённых пользователей
-        print("+ Delete user: {} {}".format(check_users[0]['first_name'],check_users[0]['last_name']))
+        print("+ Удалил: {} {}".format(check_users[0]['first_name'],check_users[0]['last_name']))
 
 print(f"[DONE] Удалено {d_chet} пользователей!") 
