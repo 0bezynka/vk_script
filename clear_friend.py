@@ -1,11 +1,13 @@
 import vk_api
 """
-(Очистка Друзей)
+Очистка друзей
 """
 vk=vk_api.VkApi(token="TOKEN")
 
-fg = vk.method("friends.get")# получаем список друзей
-spisok_id = fg['items']# берём их айди
+# Получаем список друзей
+fg = vk.method("friends.get")
+# Берём их айди
+spisok_id = fg['items']
 
 chet = 0 # счётчик
 d_chet = 0 # счётчик удалённых пользователей
@@ -20,11 +22,11 @@ for list_id in spisok_id:# каждый айди проверяем из спи�
         # Этот метод БАНИТ его (в ЧС) 
         #ban = vk.method("account.ban",{"owner_id":check_users[0]['id']})
         #d_chet += 1 # счётчик удалённых пользователей
-        #print("+ Baned user: {} {}".format(check_users[0]['first_name'],check_users[0]['last_name']))
+        #print("+ Заблокировал: {} {}".format(check_users[0]['first_name'],check_users[0]['last_name']))
 
         # Этот метод УДАЛЯЕТ его
         delete = vk.method("friends.delete",{"user_id":check_users[0]['id']})
         d_chet += 1 # счётчик удалённых пользователей
         print("+ Удалил: {} {}".format(check_users[0]['first_name'],check_users[0]['last_name']))
 
-print(f"[DONE] Удалено {d_chet} пользователей!") 
+print(f"[FINISH] Удалено {d_chet} пользователей!")
