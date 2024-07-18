@@ -1,16 +1,18 @@
 from random import choice
 import vk_api, time
 """
-Авто-статус 
+Авто-Статус 
 """
 
-vk=vk_api.VkApi(token="TOKEN") # VK token
-
-text = ['text1','text2','text3'] # СПИСОК
+vk=vk_api.VkApi(token="TOKEN")
+# Список
+text = ['text1','text2','text3']
 
 while True:
-    r_text = (choice(text)) # СЛУЧАЙНЫЕ ТЕКСТ ИЗ СПИСКА
-    SS = vk.method("status.set",{"text":r_text}) # УСТАНОВКА СТАТУСА
+    # Случайный текст из списка
+    r_text = (choice(text))
+    # Установка статуса
+    vk.method("status.set",{"text":r_text})
     print("Статус обновлён!")
 
-    time.sleep(300) # СОН 5 МИНУТ
+    time.sleep(300) # Сон 5 минут
