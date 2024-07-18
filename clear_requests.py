@@ -2,7 +2,7 @@ import vk_api, time
 """
 Отменяет все исходящие заявки
 """
-vk=vk_api.VkApi(token="TOKEN") # VK
+vk=vk_api.VkApi(token="TOKEN")
 
 def clear_requests():
 	chet = 0
@@ -12,5 +12,3 @@ def clear_requests():
 		chet += 1
 		print(f"[{chet}] Отменил заявку")
 		time.sleep(1)
-
-clear_requests()
