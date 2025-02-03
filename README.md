@@ -22,7 +22,7 @@
     python add_friend.py
 ```
 
-![language](https://img.shields.io/badge/python-3.10-purple)
+![language](https://img.shields.io/badge/python-3.10-purple) ![library](https://img.shields.io/badge/library-vk_api-blue)
 ---
 
 > Надеюсь тебе пригодится. Все скрипты здесь для тех кто знает что с ними делать и как применять.
