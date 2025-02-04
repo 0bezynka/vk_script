@@ -1,8 +1,9 @@
 import vk_api, time
+from config import *
 """
 Отменяет все исходящие заявки
 """
-vk=vk_api.VkApi(token="TOKEN")
+vk=vk_api.VkApi(token=TOKEN)
 
 def clear_requests():
 	chet = 0

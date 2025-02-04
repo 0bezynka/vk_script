@@ -1,8 +1,9 @@
 import vk_api, time
+from config import *
 """
 Вечный онлайн
 """
-vk=vk_api.VkApi(token="ТОКЕН")
+vk=vk_api.VkApi(token=TOKEN)
 
 while True:
     vk.method("account.setOnline")# Онлайн
