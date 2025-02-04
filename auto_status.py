@@ -1,10 +1,11 @@
 from random import choice
 import vk_api, time
+from config import *
 """
 Авто-Статус 
 """
 
-vk=vk_api.VkApi(token="TOKEN")
+vk=vk_api.VkApi(token=TOKEN)
 # Список
 text = ['text1','text2','text3']
 

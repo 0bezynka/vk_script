@@ -1,8 +1,9 @@
 import vk_api
+from config import *
 """
 Очистка друзей
 """
-vk=vk_api.VkApi(token="TOKEN")
+vk=vk_api.VkApi(token=TOKEN)
 
 # Получаем список друзей
 fg = vk.method("friends.get")

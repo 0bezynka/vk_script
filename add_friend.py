@@ -1,9 +1,10 @@
 import vk_api, time
+from config import *
 """
 Добавление новых друзей 
 """
 
-vk=vk_api.VkApi(token="TOKEN")
+vk=vk_api.VkApi(token=TOKEN)
 
 def adding_friends():
 	chet = 1
