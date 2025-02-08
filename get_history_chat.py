@@ -4,6 +4,7 @@ import os
 """
 Сохранение диалогов
 """
+
 print("# Начинаю")
 vk=vk_api.VkApi(token=TOKEN)
 
