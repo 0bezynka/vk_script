@@ -25,14 +25,11 @@ python add_friend.py
 В файл (.txt) сохраняет все диалоги которые есть на данный момент. Лично мне надо был скрипт для обучения чат-бота. Это голый скрипт, под свои нужды его необходимо дорабатывать.
 ```bash
 python get_history_chat.py
-<<<<<<< HEAD
 ```
 ### Очитска стены
 После запуска скрипта все записи на стене будут удалены.
 ```bash
 python clear_wall.py
-=======
->>>>>>> f89258ff9b11d00fa9901154ee2de766e13d872b
 ```
 
 ![language](https://img.shields.io/badge/python-3.10-purple) ![library](https://img.shields.io/badge/library-vk_api-blue)
